@@ -1,0 +1,56 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #333;
+    color: #fff;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+/* Form Elements Styling */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #333;
+    box-shadow: none;
+}
+
+/* Prediction Text Styling */
+#prediction {
+    font-size: 1.5em;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
